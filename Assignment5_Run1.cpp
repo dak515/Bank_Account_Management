@@ -445,7 +445,7 @@ int main() {
 	cout << "Following is the array of 3 bank account's information being printed on the screen" << endl;
 	cout << endl;
 	SavingAccount henryAccount("Henry", "Locke", 1000);
-	BankAccount *accArray[3];
+	BankAccount *accArray[2];
 	accArray[0] = &jackAccount;
 	accArray[1] = &samirAccount;
 	accArray[2] = &henryAccount;
